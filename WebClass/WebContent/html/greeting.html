@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>First Page</title>
+
+</head>
+<body>
+여기는 body 영역입니다.
+<!--<script src="../js/greeting.js"></script>
+-->
+<script>
+function greeting(nation){
+	if(nation=='k'){
+		document.getElementById("result").innerHTML = "안녕하세요";
+	}
+	else if(nation=='u'){
+		document.getElementById("result").innerHTML = "헬로우";
+	}
+	else if(nation=='c'){
+		document.getElementById("result").innerHTML = "니하오";
+	}
+	consol.log("qqqqqqqqqq");
+}
+function korean(){
+	alert('안녕하세요');
+	greeting('k');
+}
+function usa(){
+	alert('헬로우');
+	greeting('u');
+}
+function china(){
+	alert('니하오');
+	greeting('c');
+}
+</script>
+<input type="button" value="한국" onclick="korean()">
+<input type="button" value="미국" onclick="usa()">
+<input type="button" value="중국" onclick="china()">
+<p id="result"></p>
+</body>
+</html>
