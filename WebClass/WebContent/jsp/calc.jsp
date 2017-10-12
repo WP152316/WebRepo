@@ -1,3 +1,4 @@
+<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ page import="java.text.SimpleDateFormat" %>
@@ -28,6 +29,6 @@ try{
 
 <%
 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss a");%>
-현재 일시는 <% =sdf.format(new date()) %>
+현재 일시는 <%= sdf.format(new Date()) %>
 </body>
 </html>

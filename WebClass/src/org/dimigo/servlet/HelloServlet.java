@@ -81,7 +81,4 @@ public class HelloServlet extends HttpServlet {
 	/**
 	 * 
 	 */
-	private void destroy() {
-		System.out.println("destroy()1111");
-	}
 }
