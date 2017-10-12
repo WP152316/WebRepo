@@ -1,0 +1,74 @@
+@CHARSET "EUC-KR";
+#f{
+	background-image:url('../myblog/img/walking.jpg');
+	height: 450px;
+	text-align: center;
+	color:#ffffff;
+}
+#s{
+	background-color: #black;
+	height: 700px;
+	text-align: center;
+	z-index:0;
+}
+#s2{
+	background-color: #black;
+	height: 700px;
+	text-align: center;
+	z-index:0;
+}
+#t{
+	background-color: #dadada;
+	height: 700px;
+	text-align: center;
+}
+#fo{
+	background-image:url('../myblog/img/gu.jpg');
+	height: 320px;
+	text-align: center;
+	color:#ffffff;
+}
+#end{
+	background-color: #000000;
+	height: 100px;
+	text-align: center;
+	color:#ffffff;
+}
+#gaip{
+	background-image : url('../myblog/img/gaip.jpg');
+	height: 450px;
+	text-align: center;
+	color:#ffffff;
+}
+#logo{
+	height: 70px;
+	width: 70px;
+}
+
+#nav{
+	position:fixed;
+	width:100vw;
+	z-index:100;
+}
+
+#bar{
+	background-image: url('../myblog/img/bar.gif');
+	height: 10px;
+	
+}
+
+#bar2{
+	background-image: url('../myblog/img/bar.gif');
+	height: 10px;
+	
+}
+#bar3{
+	background-image: url('../myblog/img/bar.gif');
+	height: 10px;
+	
+}
+#bar4{
+	background-image: url('../myblog/img/bar.gif');
+	height: 10px;
+	
+}

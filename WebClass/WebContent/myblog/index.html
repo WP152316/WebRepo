@@ -1,0 +1,371 @@
+	<!DOCTYPE html>
+	<html lang="ko">
+	<head>
+	<title>ZIPsc blog</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/myblog.css">
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+		integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+		crossorigin="anonymous">
+	
+	</head>
+	<body>
+	
+	
+	
+		<nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">ZIPsc</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link" href="#ff">나는 누구일까?<span
+						class="sr-only">(current)</span></a> <a class="nav-item nav-link"
+						href="#bar2">취미 & 좋아하는것</a> <a class="nav-item nav-link" href="#bar3">꿈</a>
+						<a class="nav-item nav-link" href="#bar">로그인&회원가입</a>
+				</div>
+			</div>
+		</nav>
+		<div id="carouselExampleIndicators" class="carousel slide"
+			data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0"
+					class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" src="./img/demun.png" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="./img/demun3.png" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="./img/demun2.png" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators"
+				role="button" data-slide="prev"> <span
+				class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+				class="sr-only">Previous</span>
+			</a> <a class="carousel-control-next" href="#carouselExampleIndicators"
+				role="button" data-slide="next"> <span
+				class="carousel-control-next-icon" aria-hidden="true"></span> <span
+				class="sr-only" id="ff">Next</span>
+			</a>
+		</div>
+		<!-- <img src="demun.png" class="img-fluid" alt="Responsive image"> -->
+		<div id="f">
+			<br> <br>
+			<h2 class="display-3">나는 누구일까?</h2>
+			<br>나는 양승철이다.<br>
+			<h6>
+				<br>한국디지털미디어고등학교를 재학중이고,<br> Softwing의 동아리장이자 창립자이다.<br>
+				<br> 대한민국청소년 기자단 5기로 활동중이고,<br> 정치관련 소식을 전하는 정치부 기자이다.
+			</h6>
+			<h2>
+				<br>그러하다.<br id="log">
+			</h2>
+		</div>
+		<div id="bar">
+			<br>
+		</div>
+		<form id="LoginForm">
+			<div id="fo">
+				<br>
+				<h1 class="display-4" id="login">로그인</h1>
+				<br>
+				<table>
+					<tr>
+						<td style="width: 35vw;"></td>
+						<td style="width: 30vw;">
+	
+							<div class="input-group">
+	
+								<input type="text" class="form-control" placeholder="ID"
+									aria-label="ID" aria-describedby="sizing-addon2" id="id"
+									required>
+							</div> <br>
+							<div class="input-group">
+	
+								<input type="password" class="form-control" placeholder="PWD"
+									aria-label="PWD" aria-describedby="sizing-addon2" id="pwd"
+									required>
+							</div>
+	
+						</td>
+						<td style="width: 35vw;"></td>
+					</tr>
+				</table>
+				<br>
+				<table>
+					<tr>
+						<td style="width: 40vw;"></td>
+						<td style="width: 20vw;">
+							<button type="submit" class="btn btn-primary btn-dark" id="ss">로그인</button>
+						</td>
+						<td style="width: 40vw;"></td>
+					</tr>
+				</table>
+			</div>
+		</form>
+		<form id="gaip">
+			<div>
+				<br>
+				<h1 class="display-4" id="daip">
+					회원가입<br>
+					<br>
+				</h1>
+				<table>
+					<tr>
+						<td style="width: 25vw;"></td>
+						<td style="width: 25vw;"><br>
+							<div class="input-group">
+								<span class="input-group-addon">이름</span> <input type="text"
+									class="form-control" placeholder="name" aria-label="name"
+									aria-describedby="sizing-addon2" id="name" required>
+							</div> <br>
+							<div class="input-group">
+								<span class="input-group-addon" id="sizing-addon2">번호</span> <input
+									type="text" class="form-control" placeholder="num"
+									aria-label="num" aria-describedby="sizing-addon2" required>
+							</div> <br></td>
+						<td style="width: 5vw;"></td>
+						<td style="width: 20vw;">1학년<input type="radio" name="ye"
+							checked> 2학년<input type="radio" name="ye" checked>
+							3학년<input type="radio" name="ye" checked> <br> <br>
+							<div class="form-group">
+								<label for="exampleFormControlSelect1">반을 선택하세요.</label> <select
+									class="form-control" id="exampleFormControlSelect1">
+									<option>1반(이비즈니스과)</option>
+									<option>2반(디지털컨텐츠과)</option>
+									<option>3반(웹프로그래밍과)</option>
+									<option>4반(웹프로그래밍과)</option>
+									<option>5반(해킹방어과)</option>
+									<option>6반(해킹방어과)</option>
+								</select>
+							</div>
+						</td>
+						<td style="width: 25vw;"></td>
+					</tr>
+				</table>
+				<br>
+						<br>
+				<table>
+					<tr>
+						<td style="width: 35vw;"></td>
+						
+						<td style="width: 30vw;">
+							<button type="submit" class="btn btn-primary btn-lg" id="ee">회원가입</button>
+						</td>
+	
+						<td style="width: 35vw;"></td>
+					</tr>
+				</table>
+		</div>
+		</form>
+		<div id="bar2">
+			<br>
+		</div>
+		<div id="s2">
+			<br>
+			<br>
+			<h1 class="display-4">취미</h1>
+			<br>
+			<br>
+			<table>
+				<tr>
+					<td style="width: 25vw;"></td>
+					<td style="width: 50vw;">
+						<h1 class="display-5">책읽기</h1>
+					</td>
+					<td style="width: 25vw;"></td>
+				</tr>
+				<tr>
+					<td style="width: 25vw;"></td>
+					<td style="width: 50vw;"><img alt="이미지가 안뜨세요???!!!"
+						src="./img/book.png" style="width: 200px;"></td>
+					<td style="width: 25vw;"></td>
+				</tr>
+			</table>
+			<br>
+			<table>
+				<tr>
+					<td style="width: 25vw;"></td>
+					<td style="width: 50vw;">
+						<h1 class="display-5">뉴스보기</h1>
+					</td>
+					<td style="width: 25vw;"></td>
+				</tr>
+				<tr>
+					<td style="width: 25vw;"></td>
+					<td style="width: 50vw;"><img alt="이미지가 안뜨세요???!!!"
+						src="./img/news.png" style="width: 200px;"></td>
+					<td style="width: 25vw;"></td>
+				</tr>
+			</table>
+			<br>
+		</div>
+	
+		<div id="t">
+			<br>
+			<h1 class="display-4">좋아하는 것</h1>
+			<br>
+			<br>
+			<table>
+				<tr>
+					<td style="width: 25vw;"></td>
+					<td colspan="2" style="width: 50vw;">
+						<h1 class="display-5">운동</h1>
+					</td>
+					<td style="width: 25vw;"></td>
+				</tr>
+				<tr>
+					<td style="width: 25vw;"></td>
+					<td style="width: 25vw;">배드민턴<br>
+					<br> 배드민턴을 초등학교 6학년때 부터 시작을 하여 아빠, 엄마를 따라다리면서 연습을 하였습니다. 그 결과
+						도대회나가서 예선탈락하고 1등로 나왔습니다 ^^
+					</td>
+					<td style="width: 25vw;">볼링<br>
+					<br> 볼링을 중학교 1학년때 부터 시작을 하여 중학교 3학년때 까지 하였습니다. 중학교 3학년때 도대회를
+						나가서 평균 180점이상을 기록하여 도대회에서 1등을 하였습니다 ^^<br> 고등학교를 와서 볼링을 그만 뒀지만
+						심심풀이로 고등학교 2학년올라와서 지역대회 나갔는데 청소년 평균 160점으로 1등을 하고 왔습니다^^<br>저는
+						제가 봐도 볼링에 재능이 있는 것 같습니다 ^^
+					</td>
+					<td style="width: 25vw;"></td>
+				</tr>
+			</table>
+			<br>
+			<table>
+				<tr>
+					<td style="width: 25vw;"></td>
+					<td colspan="2" style="width: 50vw;">
+						<h1 class="display-5">먹을 것</h1>
+					</td>
+					<td style="width: 25vw;"></td>
+				</tr>
+				<tr>
+					<td style="width: 25vw;"></td>
+					<td style="width: 25vw;">전병<br>
+					<br> 캬... 전병하면 전병현이죠. 죄송합니다.<br>저는 정말 전병이라는 것을 좋아합니다. 저희
+						지역에 있는 중앙시장에 전병을 팔아주시는 할머니가 계시는데 정말 맛이 있습니다!
+					</td>
+					<td style="width: 25vw;">냉면<br>
+					<br> 냉면 정말 맛있습니다. 배가 불러도 한그릇은 먹으며 배가 고플때는 최소 두그릇 이상을 먹을 수 있습니다.
+						냉면은 역시 고기주는 냉면집이지요 하하하하
+					</td>
+					<td style="width: 25vw;"></td>
+				</tr>
+			</table>
+	
+	
+		</div>
+		<div id="bar4">
+			<br>
+		</div>
+		<div id="s">
+			<div id="carouselExampleControls" class="carousel slide"
+				data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="./img/page1.gif" alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./img/page2.gif" alt="Second slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./img/page3.gif" alt="Third slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./img/page4.gif" alt="Third slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./img/page5.gif" alt="Third slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls"
+					role="button" data-slide="prev"> <span
+					class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+					class="sr-only">Previous</span>
+				</a> <a class="carousel-control-next" href="#carouselExampleControls"
+					role="button" data-slide="next"> <span
+					class="carousel-control-next-icon" aria-hidden="true"></span> <span
+					class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<div id="bar3">
+			<br>
+		</div>
+		<div id="end">
+			<br>
+			<h6 class="display-6">
+				Copyrightⓒ2017ZIPsc <br>
+				<br>내가 만들었다.
+			</h6>
+		</div>
+	
+	
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+			integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+			integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+			crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../js/javascript.js"></script>
+		<!-- Modal -->
+		<div class="modal" id="myModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">로그인 결과</h5>
+						<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!-- Modal2 -->
+		<div class="modal" id="myModal2">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel2">회원가입 결과</h5>
+						<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>
